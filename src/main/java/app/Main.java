@@ -2,22 +2,14 @@ package app;
 
 public class Main {
     public static void main(String[] args) {
+        Calculator calculator = new Calculator();
 
-        System.out.println("Calculation");
+        int sum = calculator.sum(200, 100);
+        System.out.println(sum);
 
-        int resInt = add(5,6);
-        System.out.println(resInt);
+        float divide = calculator.divide(100,4);
+        System.out.println(divide);
 
-        float resFloat = add(5.5f,6.5f);
-        System.out.println(resFloat);
 
-    }
-
-    public static int add(int a, int b) {
-        return a + b;
-    }
-
-    public static float add(float a, float b) {
-        return a + b;
     }
 }
