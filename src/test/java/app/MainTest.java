@@ -1,10 +1,14 @@
-package com.doranco.devopsdemo;
+package app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DevopsdemoApplicationTests {
+class MainTest {
+
+	@Test
+	void contextLoads() {
+	}
 
 
 
