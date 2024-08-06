@@ -7,7 +7,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalTime;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 
@@ -22,8 +22,8 @@ public class TimeController {
     //@GetMapping("/time")
     @RequestMapping(value = "/time", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public String time() {
-        LocalTime time = LocalTime.now();
-        return time.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
+        LocalDateTime time = LocalDateTime.now();
+        return time.format(DateTimeFormatter.ofPattern("dd/mm/yyyy HH:mm:ss"));
         //return JSONObject.time;
     }
 
