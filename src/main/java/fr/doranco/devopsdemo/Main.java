@@ -1,4 +1,4 @@
-package app;
+package fr.doranco.devopsdemo;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,6 +9,8 @@ public class Main {
 
         float divide = calculator.divide(100,4);
         System.out.println(divide);
+
+        System.out.println();
 
 
     }
