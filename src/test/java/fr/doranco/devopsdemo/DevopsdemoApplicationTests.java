@@ -1,4 +1,4 @@
-package com.doranco.devopsdemo;
+package fr.doranco.devopsdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

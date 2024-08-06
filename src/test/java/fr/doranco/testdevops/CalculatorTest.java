@@ -1,8 +1,7 @@
-package app;
+package fr.doranco.testdevops;
 
+import fr.doranco.devopsdemo.Calculator;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.boot.test.context.SpringBootTest;

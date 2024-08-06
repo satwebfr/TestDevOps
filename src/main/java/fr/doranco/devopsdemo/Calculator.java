@@ -1,4 +1,4 @@
-package app;
+package fr.doranco.devopsdemo;
 
 public class Calculator {
 
